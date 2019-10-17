@@ -1,2 +1,2 @@
 # Programowanie-Obiektowe
-programowanie obiektowe Grzegorz Karowiec
+Grzegorz Karowiec 151087

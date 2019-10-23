@@ -3,42 +3,40 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace Cwiczenie2
+namespace cwiczenie3
 {
     class Car
     {
+        private double _pojemnoscSilnika;
         private string _marka;
-        private int _rok;
-        private string model;
-        private int iloscDrzwi;
-        private double pojemnoscSilnika;
-        public double srednieSpalanie;
+        private static int _iloscKol;
 
-        public Car(string marka, int rok)
+        private Car()
         {
+
+        }
+        private Car(double pojemnoscSilnika, string marka)
+        {
+            this._pojemnoscSilnika = pojemnoscSilnika;
             this._marka = marka;
-            this._rok = rok;
         }
 
-        public void Wyswietl()
+        public static Car Create()
         {
-            string rokS = _rok.ToString();
-            Console.WriteLine(_marka + " " + rokS);
+            var car = new Car();
+
+            return car;
+        }
+        static Car()
+        {
+            _iloscKol = 4;
         }
 
-        private double ObliczSpalanie(double dlugoscTrasy)
+        ~Car()
         {
-            double spalanie = srednieSpalanie * dlugoscTrasy;
-            return spalanie;
-        }
-
-        public double ObliczKosztPrzejazdu(double dlugoscTrasy, double cenaPaliwa)
-        {
-
-            double spalanie = ObliczSpalanie(dlugoscTrasy);
-            double kosztPrzejazdu = spalanie * cenaPaliwa;
-            return kosztPrzejazdu;
+            MessageBox.Show("Zwalniam pamiec");
         }
     }
 }

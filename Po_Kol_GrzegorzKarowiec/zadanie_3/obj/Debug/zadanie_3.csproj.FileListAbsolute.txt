@@ -1,0 +1,7 @@
+C:\Users\savro\source\repos\Po_Kol_GrzegorzKarowiec\zadanie_3\bin\Debug\zadanie_3.exe.config
+C:\Users\savro\source\repos\Po_Kol_GrzegorzKarowiec\zadanie_3\bin\Debug\zadanie_3.exe
+C:\Users\savro\source\repos\Po_Kol_GrzegorzKarowiec\zadanie_3\bin\Debug\zadanie_3.pdb
+C:\Users\savro\source\repos\Po_Kol_GrzegorzKarowiec\zadanie_3\obj\Debug\zadanie_3.csproj.CoreCompileInputs.cache
+C:\Users\savro\source\repos\Po_Kol_GrzegorzKarowiec\zadanie_3\obj\Debug\zadanie_3.exe
+C:\Users\savro\source\repos\Po_Kol_GrzegorzKarowiec\zadanie_3\obj\Debug\zadanie_3.pdb
+C:\Users\savro\source\repos\Po_Kol_GrzegorzKarowiec\zadanie_3\obj\Debug\zadanie_3.csprojAssemblyReference.cache
